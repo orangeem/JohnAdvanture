@@ -72,11 +72,13 @@
     <Content Include="images\bandit.png" />
     <Content Include="images\beat.png" />
     <Content Include="images\cleaning.png" />
+    <Content Include="images\cying.png" />
+    <Content Include="images\cying1.png" />
     <Content Include="images\dinner.png" />
     <Content Include="images\drunk.png" />
     <Content Include="images\felldown.png" />
     <Content Include="images\felldownhorse.png" />
-    <Content Include="images\hosrses.png" />
+    <Content Include="images\horses.png" />
     <Content Include="images\main.png" />
     <Content Include="images\runaway1.png" />
     <Content Include="images\runaway2.png" />

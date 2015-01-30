@@ -1,77 +1,77 @@
 ﻿body {
-    font-family: 'PT Sans', sans-serif;
-    min-height: 740px;
-
-    background: rgb(215, 215, 215);
-    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(240, 240, 240)), to(rgb(190, 190, 190)));
-    background: -webkit-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-    background:    -moz-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-    background:     -ms-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-    background:      -o-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-    background:         radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
+background: #b5bdc8;
+background: -moz-radial-gradient(center, ellipse cover,  #b5bdc8 0, #828c95 36%, #28343b 100%);
+background: -webkit-gradient(radial, center center, 0, center center, 100%, color-stop(0,#b5bdc8), color-stop(36%,#828c95), color-stop(100%,#28343b));
+background: -webkit-radial-gradient(center, ellipse cover,  #b5bdc8 0,#828c95 36%,#28343b 100%);
+background: -o-radial-gradient(center, ellipse cover,  #b5bdc8 0,#828c95 36%,#28343b 100%);
+background: -ms-radial-gradient(center, ellipse cover,  #b5bdc8 0,#828c95 36%,#28343b 100%);
+background: radial-gradient(ellipse at center,  #b5bdc8 0,#828c95 36%,#28343b 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=1 );
 }
 
-.step {
-    position: relative;
-    width: 900px;
-    padding: 40px;
-    margin: 20px auto;
-
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing:    border-box;
-    -ms-box-sizing:     border-box;
-    -o-box-sizing:      border-box;
-    box-sizing:         border-box;
-
-    font-family: 'PT Serif', georgia, serif;
-    font-size: 48px;
-    line-height: 1.5;
-}
-
+/* styling for slides that are inactive */
 .impress-enabled .step {
     margin: 0;
-    opacity: 0.3;
-
-    -webkit-transition: opacity 1s;
-    -moz-transition:    opacity 1s;
-    -ms-transition:     opacity 1s;
-    -o-transition:      opacity 1s;
-    transition:         opacity 1s;
+    opacity: 0.0;
+    -webkit-transition: opacity 1s ease;
+    -moz-transition: opacity 1s ease;
+    -ms-transition: opacity 1s ease;
+    -o-transition: opacity 1s ease;
+    transition: opacity 1s ease;
 }
 
-.impress-enabled .step.active { opacity: 1 }
+    /* styling for slides that are active*/
+    .impress-enabled .step.active {
+        opacity: 1;
+    }
 
+
+/* styling for all slides */
 .slide {
     display: block;
-
-    width: 900px;
-    height: 700px;
+    width: 700px;
+    height: 600px;
     padding: 40px 60px;
-
     background-color: white;
     border: 1px solid rgba(0, 0, 0, .3);
-    border-radius: 10px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
-
-    color: rgb(102, 102, 102);
+    color: rgb(52, 52, 52);
     text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
-
-    font-family: 'Open Sans', Arial, sans-serif;
-    font-size: 30px;
-    line-height: 36px;
-    letter-spacing: -1px;
+    border-radius: 5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 24px;
 }
 
-.slide q {
-    display: block;
-    font-size: 50px;
-    line-height: 72px;
+/* styling for slide paragraphs */
+.slide p {
+        margin-top: 15px;
+        margin-bottom: 30px;
+        line-height: 30px;
+    }
 
-    margin-top: 100px;
-}
+/* styling for slide links */
+.slide a, .slide a:visited {
+        color: #071549;
+        text-decoration: none;
+        background-color: #abc;
+        padding: 5px;
+        border-radius: 5px;
+        border: 1px solid #cde;
+    }
 
-.slide q strong {
-    white-space: nowrap;
+.slide a:hover, .slide a:active {
+            background-color: #cde;
+        }
+
+/* styling for slide text area */
+.slide .slide-text {
+        height: 450px;
+    }
+
+/* styling for menu section of each slide */
+div.menu {
+    border-top: 2px solid black;
+    padding-top: 25px;
+    text-align: center;
 }
 
 .main{
@@ -115,7 +115,7 @@
 }
 
 .run{
-    background-image: url('../images/run.png');
+    background-image: url('../images/runaway1.png');
     background-size: contain;
     background-repeat:no-repeat;
     background-position:bottom;
@@ -147,22 +147,36 @@
     background-position:bottom;
 }
 .runaway{
-    background-image: url('../images/runway.png');
+    background-image: url('../images/runaway2.png');
     background-size:contain;
     background-repeat:no-repeat;
     background-position:bottom;
 }
 
 .younghorse{
-    background-image: url('../images/felldownhorse.png');
+    background-image: url('../images/cying1.png');
     background-size:contain;
     background-repeat:no-repeat;
     background-position:bottom;
 }
 
 .oldhorse{
-    background-image: url('../images/1.png');
+    background-image: url('../images/felldownhorse.png');
     background-size:contain;
     background-repeat:no-repeat;
     background-position:bottom;
+}
+.dontuse{
+    background-image: url('../images/cying.png');
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:bottom;
+}
+
+.sleep{
+    background-image: url('../images/horses.png');
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:bottom;
+
 }
