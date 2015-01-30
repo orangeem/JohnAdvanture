@@ -76,65 +76,93 @@
 
 .main{
     background-image: url('../images/main.png');
-    background-size: 100%;
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:bottom;
 }
 
 .shortcut{
     background-image: url('../images/felldown.png');
-    background-size: 100%;
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position:bottom;
 }
 .detour{
     background-image: url('../images/dinner.png');
-    background-size: 100%;    
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position:bottom; 
 }
 
 .help{
     background-image: url('../images/amulet.png');
-    background-size: 100%;
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position:bottom;
 }
 
 .pass{
     background-image: url('../images/bandit.png');
-    background-size: 100%;
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position:bottom;
 }
 .useAmulet{
     background-image: url('../images/main.png');
-    background-size: 100%;    
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position:bottom;
 }
 
 .run{
     background-image: url('../images/run.png');
-    background-size: 100%;
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position:bottom;
 }
 
 .fight{
     background-image: url('../images/beat.png');
-    background-size: 100%;
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position:bottom;
 }
 .beer{
     background-image: url('../images/drunk.png');
-    background-size: 100%;    
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position:bottom;
 }
 .sleep{
     background-image: url('../images/horses.png');
-    background-size: 100%;
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:bottom;
 }
 
 .work{
     background-image: url('../images/cleaning.png');
-    background-size: 100%;
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:bottom;
 }
 .runaway{
     background-image: url('../images/runway.png');
-    background-size: 100%;    
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:bottom;
 }
 
 .younghorse{
     background-image: url('../images/felldownhorse.png');
-    background-size: 100%;
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:bottom;
 }
 
 .oldhorse{
     background-image: url('../images/1.png');
-    background-size: 100%;
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:bottom;
 }
