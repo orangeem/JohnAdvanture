@@ -1,0 +1,5 @@
+﻿function main() {
+   
+    impress().init();
+    
+}
