@@ -83,7 +83,6 @@
     <Content Include="images\main.png" />
     <Content Include="images\runaway1.png" />
     <Content Include="images\runaway2.png" />
-    <Content Include="images\shortcut.PNG" />
     <Content Include="index.html" />
     <Content Include="script\lib\game.js" />
     <Content Include="script\lib\impress.js" />
